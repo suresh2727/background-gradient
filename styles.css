@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.background-faded {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, rgb(0 0 0 /0.8), rgb(0 0 0 /0)),
+    url("https://images.unsplash.com/25/peak.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+
+.background-faded h1 {
+  color: rgba(43, 39, 39, 0.897);
+  padding-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 40px;
+  font-weight: 900;
+}
+
+.background-faded h1::first-letter {
+  color: rgb(24, 23, 23);
+  font-weight: 900;
+  font-size: 60px;
+  /* color: rgba(0, 0, 0, 0.447); */
+}
+
+.background-faded h1:nth-child(11) {
+  color: rgb(24, 23, 23);
+  font-weight: 900;
+  font-size: 60px;
+}
